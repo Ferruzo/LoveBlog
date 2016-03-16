@@ -1,0 +1,12 @@
+@mixin condensed {
+    font-family: Open Sans Condensed;
+    font-weight: bold;
+}
+
+@mixin header-footer-padding {
+    padding: 0px 0;
+}
+
+@mixin uppercase {
+    text-transform: uppercase;
+}

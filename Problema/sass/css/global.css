@@ -1,0 +1,53 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: Open Sans Condensed;
+  font-weight: 700; }
+
+h1 {
+  font-size: 3.9rem; }
+
+.float-right {
+  float: right; }
+
+.float-left {
+  float: left; }
+
+header {
+  position: fixed;
+  background-color: #fff;
+  width: 100%; }
+  header h1 {
+    color: #EA653A; }
+    header h1 span {
+      color: #F1AF9E; }
+  header li {
+    margin-top: 20px;
+    padding-right: 10px; }
+    header li a {
+      text-transform: uppercase;
+      font-family: Open Sans Condensed;
+      font-weight: bold;
+      color: #c4c4c4;
+      font-size: 1.6rem; }
+
+.navbar-brand {
+  padding: 0; }
+
+.navbar-header {
+  padding: 0px; }
+
+.navbar-default {
+  background-color: #fff;
+  border: none; }
+
+.navbar-toggle {
+  border: none;
+  margin-top: 25px; }
+
+.navbar-default .navbar-nav > .active > a {
+  color: #EA653A;
+  background-color: #fff; }
+
+.active a:hover {
+  color: blue; }
+
+/*# sourceMappingURL=global.css.map */

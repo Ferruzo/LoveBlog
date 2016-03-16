@@ -1,0 +1,47 @@
+header {
+    position: fixed;
+    background-color: $white;
+    width: 100%;
+    h1 {
+        color: $orange;
+        span {
+        color: $pink;
+        }
+    }
+
+    li {
+        margin-top: 20px;
+        padding-right: 10px;
+        a {
+            @include uppercase;
+            @include condensed;
+            color: $grey;
+            font-size: 1.6rem;
+        }
+    }
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-header {
+    padding: 0px;
+}
+
+.navbar-default {
+    background-color: $white;
+    border: none;
+}
+
+.navbar-toggle {
+    border: none;
+    margin-top: 25px;
+}
+
+.navbar-default {
+    .navbar-nav>.active>a {
+        color: $orange;
+        background-color: $white;
+    }
+}
