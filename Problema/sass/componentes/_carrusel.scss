@@ -1,0 +1,18 @@
+#banner {
+    .item {
+        @include slider-img;
+    }
+
+    .img1 {
+        background-image: url(../../images/slider.jpg);
+    }
+    .img2 {
+        background-image: url(../../images/big/pic1.jpg);
+    }
+    .img3 {
+        background-image: url(../../images/big/pic2.jpg);
+    }
+    .img4 {
+        background-image: url(../../images/big/pic3.jpg);
+    }
+}

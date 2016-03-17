@@ -13,6 +13,7 @@ h1 {
 
 header {
   position: fixed;
+  z-index: 1;
   background-color: #fff;
   width: 100%; }
   header h1 {
@@ -47,7 +48,17 @@ header {
   color: #EA653A;
   background-color: #fff; }
 
-.active a:hover {
-  color: blue; }
+#banner .item {
+  background-size: cover;
+  background-position: bottom;
+  padding: 28%; }
+#banner .img1 {
+  background-image: url(../../images/slider.jpg); }
+#banner .img2 {
+  background-image: url(../../images/big/pic1.jpg); }
+#banner .img3 {
+  background-image: url(../../images/big/pic2.jpg); }
+#banner .img4 {
+  background-image: url(../../images/big/pic3.jpg); }
 
 /*# sourceMappingURL=global.css.map */

@@ -10,3 +10,9 @@
 @mixin uppercase {
     text-transform: uppercase;
 }
+
+@mixin slider-img {
+    background-size: cover;
+    background-position: bottom;
+    padding: 28%;
+}
