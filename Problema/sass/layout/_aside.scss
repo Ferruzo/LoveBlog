@@ -1,0 +1,25 @@
+.col-lg-3, .col-md-3 {
+    .aside-h2 {
+        @include h-orange;
+        background-color: $white;
+        margin-top: 0px;
+        width: 130px;
+    }
+    p {
+        @include p-col-3-mg;
+    }
+    ul {
+        @include p-col-3-mg;
+        list-style-type: none;
+        padding-left: 0;
+    }
+    .fotos-box {
+        @include p-col-3-mg;
+        .foto {
+            display: inline-block;
+            background-color: $pink;
+            border: 1px solid $orange;
+            padding: 11%;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.pink {
+    @include pink-div;
+}
+
+#me {
+    @include section-padding;
+    background-color: $white;
+    h2 {
+        @include h-orange;
+        margin: 0 0 25px 60px;
+    }
+    a {
+        background-color: $orange;
+        color: $white;
+        padding: 7px;
+        @include uppercase;
+        @include condensed;
+    }
+
+    p {
+        margin-bottom: 30px;
+    }
+
+    .col-lg-4, .col-md-4 {
+        margin-bottom: 30px;
+    }
+}
+
+.bg-lines {
+    @include bg-lines;
+}
+
+#blog {
+    @include section-padding;
+    h2 {
+        @include h-orange;
+        @include h2-bg-lines;
+    }
+    .mg-top {
+        margin-top: 50px;
+    }
+    .row {
+        margin-top: 30px;
+    }
+    img {
+        width: 100%;
+    }
+    .blog-text {
+        border: 1px solid $grey;
+        padding: 0 25px 10px;
+    }
+    h3 {
+        @include h-orange;
+        color: $grey;
+    }
+    h4 {
+        @include h-orange;
+    }
+}

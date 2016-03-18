@@ -1,0 +1,15 @@
+footer {
+    background-color: $pink;
+    .container {
+        background-color: $orange;
+        color: $white;
+        padding: 10px 15px;
+        border-right: 10px solid #fff;
+        border-left: 10px solid #fff;
+    }
+    h2 {
+        @include uppercase;
+        font-size: 2.8rem;
+        margin-bottom: 20px;
+    }
+}

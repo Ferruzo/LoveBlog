@@ -1,0 +1,40 @@
+#theme-1 {
+    .row {
+        @include section-padding;
+    }
+    img {
+        width: 100%;
+    }
+    .mg-lines {
+        margin-bottom: 40px;
+    }
+}
+
+.date {
+    float: left;
+    padding-left: 15px;
+    height: 270px;
+    margin-right: 70px;
+    h3 {
+        font-size: 1.7rem;
+        @include h-orange;
+    }
+    p {
+        color: $grey;
+    }
+}
+
+.blog-main-text {
+    padding-left: 15px;
+    margin-bottom: 50px;
+    h2 {
+        @include h-orange;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:768px) {
+    .date {
+        float: none;
+        height: 190px;
+    }
+}

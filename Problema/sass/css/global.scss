@@ -2,5 +2,15 @@
 @import "../helpers/_mixins";
 @import "../base/_base";
 @import "../helpers/_utilities";
-@import "../layout/_header";
 @import "../componentes/_carrusel";
+@import "../layout/_aside";
+@import "../layout/_header";
+@import "../layout/_footer";
+@import "../layout/_home";
+@import "../layout/_about-us.scss";
+@import "../layout/_blog";
+
+.heading-common {
+    @include h2-common;
+    width: 100%;
+}

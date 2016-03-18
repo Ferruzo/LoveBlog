@@ -1,8 +1,14 @@
 #banner {
+    margin-top: -59px;
+    .carousel {
+        padding: 0;
+    }
     .item {
         @include slider-img;
     }
-
+    .container {
+        @include top-pink-div;
+    }
     .img1 {
         background-image: url(../../images/slider.jpg);
     }
@@ -14,5 +20,13 @@
     }
     .img4 {
         background-image: url(../../images/big/pic3.jpg);
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:768px) {
+    #banner {
+        .item {
+            padding: 250px;
+        }
     }
 }
