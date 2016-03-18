@@ -1,0 +1,60 @@
+#portfolio {
+    h3 {
+        @include uppercase;
+        color: $black;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    h5 {
+        @include uppercase;
+        font-size: 1.5rem;
+        color: $grey;
+        display:inline-block;
+        padding: 5px 25px;
+    }
+    .active-portfolio {
+        background-color: $orange;
+        color: $white;
+    }
+    .row {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+.img-portfolio {
+    border: 1px solid $grey;
+    padding: 2px;
+    margin-bottom: 5px;
+    img {
+        width: 100%;
+    }
+}
+
+.info-portfolio {
+    border: 1px solid $grey;
+    padding: 0 10px 20px;
+    margin-bottom: 10px;
+    h4 {
+        @include uppercase;
+        color: $grey;
+        font-size: 2rem;
+        margin-top: 0;
+    }
+    h6 {
+        @include h-orange;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:768px) {
+    #portfolio {
+        h3 {
+            display: block;
+        }
+        h5 {
+            display: block;
+        }
+
+    }
+}

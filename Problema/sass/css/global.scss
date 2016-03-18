@@ -9,6 +9,8 @@
 @import "../layout/_home";
 @import "../layout/_about-us.scss";
 @import "../layout/_blog";
+@import "../layout/_portfolio";
+@import "../layout/_contact-us";
 
 .heading-common {
     @include h2-common;

@@ -20,6 +20,12 @@ h4 {
 .float-left {
   float: left; }
 
+.mg-top-0 {
+  margin-top: 0; }
+
+.mg-bot-0 {
+  margin-bottom: 0; }
+
 #banner {
   margin-top: -59px; }
   #banner .carousel {
@@ -194,6 +200,34 @@ footer {
   width: 100%; }
 #theme-1 .mg-lines {
   margin-bottom: 40px; }
+#theme-1 .quote {
+  background-image: url(../../images/quote_bg.png);
+  padding: 40px 20px 40px 70px;
+  position: relative;
+  margin-bottom: 40px; }
+  #theme-1 .quote img {
+    position: absolute;
+    left: 3%;
+    top: 15%;
+    height: 30px;
+    width: 35px; }
+#theme-1 a {
+  color: #c4c4c4;
+  font-size: 1.2rem; }
+#theme-1 .last-p-blog {
+  margin: 50px 0; }
+#theme-1 .number-box {
+  display: inline-block;
+  font-size: 1.9rem;
+  background-color: #EA653A;
+  color: #fff;
+  text-align: center;
+  padding: 7px;
+  width: 40px;
+  height: 40px;
+  border-radius: 0px;
+  margin-right: 10px;
+  margin-bottom: 30px; }
 
 .date {
   float: left;
@@ -210,14 +244,96 @@ footer {
 .blog-main-text {
   padding-left: 15px;
   margin-bottom: 50px; }
-  .blog-main-text h2 {
-    text-transform: uppercase;
-    color: #EA653A; }
+
+h2 {
+  text-transform: uppercase;
+  color: #EA653A; }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .date {
     float: none;
     height: 190px; } }
+#portfolio h3 {
+  text-transform: uppercase;
+  color: #000;
+  display: inline-block;
+  margin-right: 10px; }
+#portfolio h5 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #c4c4c4;
+  display: inline-block;
+  padding: 5px 25px; }
+#portfolio .active-portfolio {
+  background-color: #EA653A;
+  color: #fff; }
+#portfolio .row {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.img-portfolio {
+  border: 1px solid #c4c4c4;
+  padding: 2px;
+  margin-bottom: 5px; }
+  .img-portfolio img {
+    width: 100%; }
+
+.info-portfolio {
+  border: 1px solid #c4c4c4;
+  padding: 0 10px 20px;
+  margin-bottom: 10px; }
+  .info-portfolio h4 {
+    text-transform: uppercase;
+    color: #c4c4c4;
+    font-size: 2rem;
+    margin-top: 0; }
+  .info-portfolio h6 {
+    text-transform: uppercase;
+    color: #EA653A;
+    font-size: 1.3rem; }
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  #portfolio h3 {
+    display: block; }
+  #portfolio h5 {
+    display: block; } }
+#contact .row {
+  padding: 30px 0; }
+#contact iframe {
+  width: 100%;
+  margin-bottom: 30px; }
+#contact .orange-p {
+  color: #EA653A; }
+#contact form input {
+  width: 70%;
+  margin: 10px 0;
+  border: 1px solid #EA653A;
+  padding: 10px 10px;
+  text-transform: uppercase; }
+#contact form textarea {
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #EA653A;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  height: 200px; }
+#contact form .submit {
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: #EA653A;
+  border: 1px solid #EA653A;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Open Sans Condensed;
+  font-weight: bold;
+  font-size: 2.5rem; }
+#contact form .submit:hover {
+  background-color: #fff;
+  color: #000; }
+#contact form ::-webkit-input-placeholder {
+  color: #EA653A;
+  font-weight: bold; }
+
 .heading-common {
   text-transform: uppercase;
   font-family: Open Sans Condensed;

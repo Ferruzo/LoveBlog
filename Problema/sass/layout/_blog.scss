@@ -8,6 +8,29 @@
     .mg-lines {
         margin-bottom: 40px;
     }
+    .quote {
+        background-image: url(../../images/quote_bg.png);
+        padding: 40px 20px 40px 70px;
+        position: relative;
+        margin-bottom: 40px;
+        img {
+            position: absolute;
+            left: 3%;
+            top: 15%;
+            height: 30px;
+            width: 35px;
+        }
+    }
+    a {
+        color: $grey;
+        font-size: 1.2rem;
+    }
+    .last-p-blog {
+        margin: 50px 0;
+    }
+    .number-box {
+        @include number-box;
+    }
 }
 
 .date {
@@ -27,10 +50,12 @@
 .blog-main-text {
     padding-left: 15px;
     margin-bottom: 50px;
-    h2 {
-        @include h-orange;
-    }
 }
+
+h2 {
+    @include h-orange;
+}
+
 
 @media screen and (min-width:0px) and (max-width:768px) {
     .date {

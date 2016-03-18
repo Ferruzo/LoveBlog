@@ -68,3 +68,22 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+@mixin number-box {
+    display: inline-block;
+    font-size: 1.9rem;
+    background-color: $orange;
+    color: $white;
+    text-align: center;
+    padding: 7px;
+    width: 40px;
+    height: 40px;
+    border-radius: 0px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+@mixin form {
+    border: 1px solid $orange;
+    padding: 10px 10px;
+}
